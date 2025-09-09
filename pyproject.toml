@@ -5,7 +5,7 @@ version = "0.1.0"
 description = "A service that generates advertising content for small business owners using GenAI."
 
 # 이 프로젝트가 필요로 하는 파이썬 버전 (가장 중요)
-requires-python = ">=3.10"
+requires-python = "==3.11"
 
 # 프로젝트의 핵심 의존성 (requirements.in의 역할)
 dependencies = [
