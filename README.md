@@ -135,6 +135,7 @@
 <br>
 
 ## ⚙️ 환경 변수 (.env) 및 설정
+루트 디렉터리에 .env 파일을 생성합니다.
 ```bash
 OPENAI_API_KEY=             # OpenAI API 키
 MYSQL_HOST=localhost        # localhost 주소
@@ -181,10 +182,7 @@ uv pip install -U pip
 uv pip install -r requirements.txt
 ```
 
-### STEP. 4 : 환경 변수 (.env) 파일 생성
-루트 디렉터리에 .env 파일을 추가하고 다음과 같이 설정합니다.
-
-### STEP. 5 : ComfyUI 설치 (이미지 생성 엔진)
+### STEP. 4 : ComfyUI 설치 (이미지 생성 엔진)
 > AdMaster의 일부 기능은 Stable Diffusion 기반 ComfyUI 워크플로우를 사용합니다.<br> poster/ComfyUI 디렉터리로 이동하여 설치를 진행합니다.
 ```bash
 cd poster/ComfyUI
@@ -200,13 +198,12 @@ ComfyUI가 정상적으로 실행되면 다음 메시지가 표시됩니다:
 Starting ComfyUI server at http://127.0.0.1:8188
 ```
 
-
-### STEP. 6 : 실행
-#### STEP. 6-1 : 백엔드(FastAPI/Uvicorn)
+### STEP. 5 : 실행
+#### STEP. 5-1 : 백엔드(FastAPI/Uvicorn)
 ```bash
-uvicorn backend.main:app --host 0.0.0.0 --port 8000]
+uvicorn backend.main:app --host 0.0.0.0 --port 8000
 ```
-#### STEP. 6-2 : 프론트엔드 (Streamlit)
+#### STEP. 5-2 : 프론트엔드 (Streamlit)
 새 터미널에서 가상환경을 다시 활성화한 후 실행합니다.
 ```bash
 source .venv/bin/activate
@@ -214,7 +211,7 @@ streamlit run frontend/app.py --server.address=0.0.0.0 --server.port=8501
 ```
 접속 주소: http://127.0.0.1:8501
 
-#### STEP. 6-3 : ComfyUI 서버
+#### STEP. 5-3 : ComfyUI 서버
 새 터미널에서 가상환경을 다시 활성화한 후 실행합니다.
 ```bash
 cd poster/ComfyUI
