@@ -3,8 +3,7 @@
 
 <br>
 
-(시연 영상 링크 또는 GIF 삽입 예정)
-
+[![[시연영상](http://img.youtube.com/vi/YgOqr8V3YCU/0.jpg)](https://youtu.be/YgOqr8V3YCU)
 <br>
 
 ## 💡 프로젝트 개요
@@ -271,3 +270,5 @@ python main.py --listen 0.0.0.0 --port 8188
 
 ## Docs
 [🔗 협업일지 링크](https://www.notion.so/26a81b926d7281f6ae49e785b2ed4d30?source=copy_link)
+[🔗 보고서 pdf](https://drive.google.com/file/d/1KxwsZSVllJICDoo44zm99-iea0pKa73i/view?usp=sharing)
+
