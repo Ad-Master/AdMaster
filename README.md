@@ -3,7 +3,7 @@
 
 <br>
 
-[![[시연영상](http://img.youtube.com/vi/YgOqr8V3YCU/0.jpg)](https://youtu.be/YgOqr8V3YCU)
+![[시연영상](http://img.youtube.com/vi/YgOqr8V3YCU/0.jpg)](https://youtu.be/YgOqr8V3YCU)
 <br>
 
 ## 💡 프로젝트 개요
